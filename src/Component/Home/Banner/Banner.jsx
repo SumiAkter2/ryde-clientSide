@@ -25,7 +25,9 @@ const Banner = () => {
             <div className="hero-content  text-neutral-content">
               <div className="hero h-[500px] ">
                 <div className=" md:absolute left-20 md:text-start text-center text-secondary">
-                  <h1 className=" text-2xl font-semibold  ">Welcome to RYDE</h1>
+                  <h1 className=" text-2xl font-semibold">
+                    Welcome to RYDE
+                  </h1>
                   <p className="py-6 lg:text-5xl text-4xl font-bold">
                     Your Journey, Our Responsibility
                   </p>

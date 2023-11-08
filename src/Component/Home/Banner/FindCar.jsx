@@ -2,7 +2,7 @@ import bgImage from "../../../assets/Banner/slider-2.jpg";
 import SecondaryButton from "../../Share/Button/SecondaryButton";
 const FindCar = () => {
   return (
-    <div className=" lg:h-[250px] lg:flex justify-center  max-w-xs">
+    <div className=" lg:h-[250px] lg:flex justify-center ">
       <div
         className="hero lg:w-[400px] "
         style={{
@@ -17,7 +17,7 @@ const FindCar = () => {
         </div>
       </div>
       <div>
-        <form className="grid lg:grid-cols-3 md:grid-cols-2 gap-4 text-primary lg:p-8 p-4  max-w-xs">
+        <form className="grid lg:grid-cols-3 md:grid-cols-2 gap-4 text-primary lg:p-8 p-4 ">
           <input
             type="text"
             placeholder="From Address"
