@@ -1,3 +1,7 @@
+import PrimaryButton from "../Share/Button/PrimaryButton";
+import { MdEmail } from "react-icons/md";
+import { PiPhoneCallFill } from "react-icons/pi";
+
 const Contact = () => {
   return (
     <div>
@@ -11,26 +15,44 @@ const Contact = () => {
           quality.
         </h1>
       </div>
-      <div className="lg:flex justify-around items-center">
-        <div>
-          <h1>Contact Info</h1>
+      <div className="lg:flex justify-between items-center my-12">
+        <div className="bg-success lg:h-96 lg:px-12 px-6 lg:w-1/2 text-secondary py-8">
+          <h1 className="text-3xl font-semibold">CONTACT INFO</h1>
+
+          <div className="mt-12 ">
+            <h1 className="text-xl font-semibold">Email Us</h1>
+            <p className="lg:flex justify-start items-center mt-4 text-xl">
+              <MdEmail size="25px" className="mr-3" /> Abc@gmail.com
+            </p>
+
+            <h1 className="text-xl font-semibold mt-8">Call Us</h1>
+            <p className="lg:flex justify-start items-center mt-4 text-xl">
+              <PiPhoneCallFill size="25px" className="mr-3" /> +9999999999
+            </p>
+          </div>
         </div>
-        <div>
-          <form className="grid gap-4">
+        <div className="bg-primary lg:h-96 lg:px-12 px-6 py-8 lg:w-1/2">
+          <form className="grid gap-2 ">
+            <h1 className="text-2xl text-secondary font-bold ml-3 mb-4">
+              LEAVE YOUR MESSAGE
+            </h1>
+            <input
+              type="text"
+              placeholder="Name"
+              className="input input-bordered input-success ml-3 rounded-none"
+            />
             <input
               type="text"
               placeholder="Email"
-              className="input input-bordered input-success w-full max-w-xs"
-            />
-            <input
-              type="text"
-              placeholder="Type here"
-              className="input input-bordered input-success w-full max-w-xs"
+              className="input input-bordered input-success ml-3 rounded-none"
             />
             <textarea
-              className="textarea textarea-success"
-              placeholder="Bio"
+              className="textarea textarea-success ml-3 rounded-none"
+              placeholder="Message"
             ></textarea>
+            <div>
+              <PrimaryButton text="Send Message" />
+            </div>
           </form>
         </div>
       </div>
