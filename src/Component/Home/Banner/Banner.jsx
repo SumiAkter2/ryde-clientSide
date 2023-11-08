@@ -2,22 +2,25 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
-import "swiper/css/autoplay";
 import PrimaryButton from "../../Share/Button/PrimaryButton";
 import "./Banner.css";
+import FindCar from "./FindCar";
 
 const Banner = () => {
   return (
-    <div>
+    <div className="relative">
       <Swiper
         spaceBetween={30}
         effect={"fade"}
-        autoplay={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         modules={[EffectFade, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="hero h-[600px] banner-bg-1 relative">
+          <div className="hero h-[700px] banner-bg-1 relative">
             <div className="hero-overlay bg-black opacity-50"></div>
             <div className="hero-content  text-neutral-content">
               <div className="hero h-[500px] ">
@@ -44,7 +47,7 @@ const Banner = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="hero h-[600px] banner-bg-2 relative">
+          <div className="hero h-[700px] banner-bg-2 relative">
             <div className="hero-overlay bg-black opacity-50"></div>
             <div className="hero-content  text-neutral-content">
               <div className="hero h-[500px] ">
@@ -71,6 +74,10 @@ const Banner = () => {
           </div>
         </SwiperSlide>
       </Swiper>
+
+      <div className="absolute lg:-bottom-40 -bottom-[600px] z-20 bg-secondary lg:mx-32 mx-8">
+        <FindCar />
+      </div>
     </div>
   );
 };
