@@ -1,7 +1,7 @@
 import aboutImage from "../../assets/Banner/about.png";
 const About = () => {
   return (
-    <div className="lg:mt-6 mt-[700px]">
+    <div className="lg:mt-16 mt-[700px] mx-6">
       <div className="hero min-h-screen bg-secondary text-primary">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src={aboutImage} className="lg:max-w-2xl rounded-lg " />
@@ -14,7 +14,6 @@ const About = () => {
               RYDE , a trading name of Transcend IQ, is dedicated to redefining
               transportation. Our acronym stands for
               <span className="font-bold">
-                {" "}
                 “Reliable, Your Dependable Expedition”.
               </span>
               We are on a mission to provide transportation solutions that

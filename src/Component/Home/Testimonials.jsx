@@ -10,12 +10,12 @@ import person4 from "../../assets/Review/person4.jpg";
 
 const Testimonials = () => {
   return (
-    <div className="my-24">
+    <div className="mt-24 mb-6">
       <div className="text-center px-6">
         <p className="py-2 font-bold text-success text-2xl">Testimonial</p>
         <h1 className=" mb-3 font-bold text-xl">Some Words From Our Clients</h1>
       </div>
-      <div className="lg:mx-12 mx-2 p-6 text-secondary">
+      <div className="lg:mx-12 mx-2 p-6 text-secondary mt-12">
         <Swiper
           spaceBetween={20}
           slidesPerView={4}

@@ -17,6 +17,12 @@ const Navbar = () => {
         <Link to="/">Services</Link>
       </li>
       <li className="hover:text-white">
+        <Link to="/">Investment</Link>
+      </li>
+      <li className="hover:text-white">
+        <Link to="/">Hiring</Link>
+      </li>
+      <li className="hover:text-white">
         <Link to="/">About</Link>
       </li>
       <li className="hover:text-white">
@@ -75,7 +81,7 @@ const Navbar = () => {
           <Link to="/" className=" font-bold text-sm ">
             <img src={logo} alt="logo" className="w-32" />
           </Link>
-          <ul className="menu lg:menu-horizontal  hidden px-1 text-xl ml-12 text-secondary">
+          <ul className="menu lg:menu-horizontal  hidden px-1 ml-12 text-secondary w-full">
             {navItem}
           </ul>
         </div>

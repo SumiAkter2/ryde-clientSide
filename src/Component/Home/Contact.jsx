@@ -8,14 +8,14 @@ const Contact = () => {
       <div className="text-center px-6">
         <p className="pt-2 font-bold ">Contact Us</p>
         <p className="py-2 text-2xl font-bold text-success">Getting in Touch</p>
-        <h1 className="text-xl mb-3">
+        <h1 className="text-xl mb-3 font-semibold">
           Questions or need more information? Reach out to us through our
           contact form, phone, or email. We’re here to assist you. Join the RYDE
           community and enjoy a dependable expedition with intelligence and
           quality.
         </h1>
       </div>
-      <div className="lg:flex justify-between items-center my-12">
+      <div className="lg:flex justify-between items-center my-16">
         <div className="bg-success lg:h-96 lg:px-12 px-6 lg:w-1/2 text-secondary py-8 text-center lg:text-start">
           <h1 className="text-3xl font-semibold">CONTACT INFO</h1>
 

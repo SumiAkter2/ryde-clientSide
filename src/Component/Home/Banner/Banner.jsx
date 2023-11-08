@@ -25,13 +25,11 @@ const Banner = () => {
             <div className="hero-content  text-neutral-content">
               <div className="hero h-[500px] ">
                 <div className=" md:absolute left-20 md:text-start text-center text-secondary">
-                  <h1 className=" text-2xl font-semibold">
-                    Welcome to RYDE
-                  </h1>
+                  <h1 className=" text-2xl font-semibold">Welcome to RYDE</h1>
                   <p className="py-6 lg:text-5xl text-4xl font-bold">
                     Your Journey, Our Responsibility
                   </p>
-                  <p className="lg:w-1/2 font-semibold my-2">
+                  <p className="lg:w-1/2 font-semibold my-2 text-xl">
                     RYDE , a division of Transportation Business Development and
                     Investment, is your trusted partner for reliable, safe, and
                     intelligent transportation services. Our commitment is to
@@ -58,7 +56,7 @@ const Banner = () => {
                   <p className="py-6 lg:text-5xl text-4xl font-bold">
                     Your Journey, Our Responsibility
                   </p>
-                  <p className="lg:w-1/2 font-semibold my-2">
+                  <p className="lg:w-1/2 font-semibold my-2 text-xl">
                     RYDE , a division of Transportation Business Development and
                     Investment, is your trusted partner for reliable, safe, and
                     intelligent transportation services. Our commitment is to

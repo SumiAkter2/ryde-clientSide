@@ -3,7 +3,7 @@ import { AiFillSafetyCertificate } from "react-icons/ai";
 import { MdHighQuality } from "react-icons/md";
 const ChooseUs = () => {
   return (
-    <div className="mt-12">
+    <div className="mt-20">
       <div className="text-center px-6 ">
         <p className="py-2 text-xl font-bold text-success">Why Choose RYDE ?</p>
         <h1 className="text-xl mb-3">Your Reliable Transportation Partner</h1>
