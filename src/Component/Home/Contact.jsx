@@ -16,23 +16,23 @@ const Contact = () => {
         </h1>
       </div>
       <div className="lg:flex justify-between items-center my-12">
-        <div className="bg-success lg:h-96 lg:px-12 px-6 lg:w-1/2 text-secondary py-8">
+        <div className="bg-success lg:h-96 lg:px-12 px-6 lg:w-1/2 text-secondary py-8 text-center lg:text-start">
           <h1 className="text-3xl font-semibold">CONTACT INFO</h1>
 
           <div className="mt-12 ">
             <h1 className="text-xl font-semibold">Email Us</h1>
-            <p className="lg:flex justify-start items-center mt-4 text-xl">
-              <MdEmail size="25px" className="mr-3" /> Abc@gmail.com
+            <p className="flex lg:justify-start justify-center items-center mt-4 text-xl">
+              <MdEmail size="25px" className="mr-2" /> Abc@gmail.com
             </p>
 
             <h1 className="text-xl font-semibold mt-8">Call Us</h1>
-            <p className="lg:flex justify-start items-center mt-4 text-xl">
-              <PiPhoneCallFill size="25px" className="mr-3" /> +9999999999
+            <p className="flex lg:justify-start justify-center items-center mt-4 text-xl">
+              <PiPhoneCallFill size="25px" className="mr-2" /> +9999999999
             </p>
           </div>
         </div>
         <div className="bg-primary lg:h-96 lg:px-12 px-6 py-8 lg:w-1/2">
-          <form className="grid gap-2 ">
+          <form className="grid gap-2 text-center lg:text-start">
             <h1 className="text-2xl text-secondary font-bold ml-3 mb-4">
               LEAVE YOUR MESSAGE
             </h1>
@@ -50,7 +50,7 @@ const Contact = () => {
               className="textarea textarea-success ml-3 rounded-none"
               placeholder="Message"
             ></textarea>
-            <div>
+            <div className="flex lg:justify-center items-center">
               <PrimaryButton text="Send Message" />
             </div>
           </form>
