@@ -19,9 +19,7 @@ const Navbar = () => {
       <li className="hover:text-white">
         <Link to="/">Investment</Link>
       </li>
-      <li className="hover:text-white">
-        <Link to="/">Hiring</Link>
-      </li>
+
       <li className="hover:text-white">
         <Link to="/">About</Link>
       </li>
@@ -66,13 +64,16 @@ const Navbar = () => {
                 aria-label="close sidebar"
                 className="drawer-overlay"
               ></label>
-              <ul className="menu w-[350px] min-h-full bg-slate-300 text-black ">
+              <ul className="menu w-[300px] min-h-full bg-slate-300 text-black ">
                 {navItem}
               </ul>
-              <div className=" lg:hidden flex absolute top-36 ">
-                <button className="text-xl px-8 border-0 text-black font-semibold">
-                  Login
-                </button>
+              <div className=" lg:hidden pl-5 absolute top-[190px] ">
+                <p className="text-primary text-sm flex justify-center  items-center py-2 mr-4">
+                  <RiLoginCircleLine className="mr-1" /> LOGIN
+                </p>
+                <p className="text-primary text-sm flex justify-center  items-center py-2">
+                  <FaRegUserCircle className="mr-1" /> SIGN UP
+                </p>
 
                 {/* <PrimaryButton text=" Start Free Trial"></PrimaryButton> */}
               </div>
