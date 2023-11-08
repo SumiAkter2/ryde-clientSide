@@ -3,7 +3,7 @@ import { Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/autoplay";
-import PrimaryButton from "../Share/Button/PrimaryButton";
+import PrimaryButton from "../../Share/Button/PrimaryButton";
 import "./Banner.css";
 
 const Banner = () => {
@@ -17,18 +17,24 @@ const Banner = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="hero min-h-screen banner-bg-1">
+          <div className="hero h-[600px] banner-bg-1 relative">
             <div className="hero-overlay bg-black opacity-50"></div>
             <div className="hero-content  text-neutral-content">
-              <div className="hero min-h-screen ">
+              <div className="hero h-[500px] ">
                 <div className=" md:absolute left-20 md:text-start text-center text-secondary">
-                  <h1 className=" text-2xl font-semibold my-2 ">
-                    Welcome to RYDE
-                  </h1>
+                  <h1 className=" text-2xl font-semibold  ">Welcome to RYDE</h1>
                   <p className="py-6 lg:text-5xl text-4xl font-bold">
                     Your Journey, Our Responsibility
                   </p>
-
+                  <p className="lg:w-1/2 font-semibold my-2">
+                    RYDE , a division of Transportation Business Development and
+                    Investment, is your trusted partner for reliable, safe, and
+                    intelligent transportation services. Our commitment is to
+                    make your journey dependable and comfortable with our fleet
+                    of smart and beautiful cars. Explore our services and
+                    investment opportunities for a seamless transportation
+                    experience
+                  </p>
                   <div className="mt-4">
                     <PrimaryButton text={"Reserve Now!"}></PrimaryButton>
                   </div>
@@ -38,18 +44,24 @@ const Banner = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="hero min-h-screen banner-bg-2 relative">
+          <div className="hero h-[600px] banner-bg-2 relative">
             <div className="hero-overlay bg-black opacity-50"></div>
             <div className="hero-content  text-neutral-content">
-              <div className="hero min-h-screen ">
+              <div className="hero h-[500px] ">
                 <div className=" md:absolute left-20 md:text-start text-center text-secondary">
-                  <h1 className=" text-2xl font-semibold my-2 ">
-                    Welcome to RYDE
-                  </h1>
+                  <h1 className=" text-2xl font-semibold  ">Welcome to RYDE</h1>
                   <p className="py-6 lg:text-5xl text-4xl font-bold">
                     Your Journey, Our Responsibility
                   </p>
-
+                  <p className="lg:w-1/2 font-semibold my-2">
+                    RYDE , a division of Transportation Business Development and
+                    Investment, is your trusted partner for reliable, safe, and
+                    intelligent transportation services. Our commitment is to
+                    make your journey dependable and comfortable with our fleet
+                    of smart and beautiful cars. Explore our services and
+                    investment opportunities for a seamless transportation
+                    experience
+                  </p>
                   <div className="mt-4">
                     <PrimaryButton text={"Reserve Now!"}></PrimaryButton>
                   </div>
