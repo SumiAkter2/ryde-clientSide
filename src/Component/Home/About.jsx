@@ -1,5 +1,4 @@
 import aboutImage from "../../assets/Banner/about.png";
-import PrimaryButton from "../Share/Button/PrimaryButton";
 const About = () => {
   return (
     <div className="lg:mt-20 mt-[700px]">
