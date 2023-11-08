@@ -2,7 +2,7 @@ import bgImage from "../../assets/Banner/bgImage.jpg";
 
 const Services = () => {
   return (
-    <div className="mb-12">
+    <div className="mb-12" id='services'>
       <div className="text-center px-6">
         <p className="pt-2 font-bold ">Services</p>
         <p className="py-2 text-2xl font-bold text-success">

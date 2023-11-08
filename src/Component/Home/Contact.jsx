@@ -4,7 +4,7 @@ import { PiPhoneCallFill } from "react-icons/pi";
 
 const Contact = () => {
   return (
-    <div>
+    <div id="contact">
       <div className="text-center px-6">
         <p className="pt-2 font-bold ">Contact Us</p>
         <p className="py-2 text-2xl font-bold text-success">Getting in Touch</p>

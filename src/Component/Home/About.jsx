@@ -1,7 +1,7 @@
 import aboutImage from "../../assets/Banner/about.png";
 const About = () => {
   return (
-    <div className="lg:mt-16 mt-[700px] mx-6">
+    <div className="lg:mt-16 mt-[700px] mx-6" id="about">
       <div className="hero min-h-screen bg-secondary">
         <div className="hero-content flex-col lg:flex-row">
           <div className="lg:text-start text-center">
