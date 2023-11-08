@@ -20,10 +20,10 @@ const Banner = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="hero h-[700px] banner-bg-1 relative">
-            <div className="hero-overlay bg-black opacity-50"></div>
+          <div className="hero lg:h-[700px] h-[900px]  banner-bg-1 relative">
+            <div className="hero-overlay bg-black bg-opacity-70"></div>
             <div className="hero-content  text-neutral-content">
-              <div className="hero h-[500px] ">
+              <div className="hero  ">
                 <div className=" md:absolute left-20 md:text-start text-center text-secondary">
                   <h1 className=" text-2xl font-semibold">Welcome to RYDE</h1>
                   <p className="py-6 lg:text-5xl text-4xl font-bold">
@@ -47,10 +47,10 @@ const Banner = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="hero h-[700px] banner-bg-2 relative">
-            <div className="hero-overlay bg-black opacity-50"></div>
+          <div className="hero lg:h-[700px] h-[900px] banner-bg-2 relative">
+            <div className="hero-overlay bg-black bg-opacity-60"></div>
             <div className="hero-content  text-neutral-content">
-              <div className="hero h-[500px] ">
+              <div className="hero  ">
                 <div className=" md:absolute left-20 md:text-start text-center text-secondary">
                   <h1 className=" text-2xl font-semibold  ">Welcome to RYDE</h1>
                   <p className="py-6 lg:text-5xl text-4xl font-bold">

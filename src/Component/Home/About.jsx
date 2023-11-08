@@ -2,9 +2,8 @@ import aboutImage from "../../assets/Banner/about.png";
 const About = () => {
   return (
     <div className="lg:mt-16 mt-[700px] mx-6">
-      <div className="hero min-h-screen bg-secondary text-primary">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src={aboutImage} className="lg:max-w-2xl rounded-lg " />
+      <div className="hero min-h-screen bg-secondary">
+        <div className="hero-content flex-col lg:flex-row">
           <div className="lg:text-start text-center">
             <p className="py-2 text-2xl font-semibold text-success">About Us</p>
             <h1 className="lg:text-5xl text-4xl my-3">
@@ -21,6 +20,7 @@ const About = () => {
               about our history, values, and the team behind our vision.
             </p>
           </div>
+          <img src={aboutImage} className="lg:max-w-2xl rounded-lg " />
         </div>
       </div>
     </div>
