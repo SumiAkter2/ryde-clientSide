@@ -14,8 +14,8 @@ const OurFleet = () => {
       <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-6 lg:mx-12 mx-6 my-12">
         <div className="shadow-2xl px-4 text-center pt-6">
           <img src={fleet1} alt="fleet-image" />
-          <h1 className="text-xl font-bold my-2">
-            Sedans: Efficiency and Style
+          <h1 className=" font-bold mt-4 mb-2">
+            Sedans: <span className="font-semibold">Efficiency and Style</span>
           </h1>
           <p>
             Ideal for individuals and small groups, offering comfort and
@@ -24,12 +24,13 @@ const OurFleet = () => {
           <p className="font-bold my-4">
             $50 <span className="text-success "> /Day</span>
           </p>
-          <SecondaryButton text="View More" />
+          <SecondaryButton text="Rent Car" />
         </div>
         <div className="shadow-2xl px-4 text-center pt-6">
           <img src={fleet2} alt="fleet-image" />
-          <h1 className="text-xl font-bold my-2">
-            Premium Cars: Luxury Redefined
+          <h1 className=" font-bold mt-4 mb-2">
+            Premium Cars:
+            <span className="font-semibold"> Luxury Redefined</span>
           </h1>
           <p>
             levate your journey with high-end vehicles for special occasions and
@@ -38,12 +39,13 @@ const OurFleet = () => {
           <p className="font-bold my-4">
             $80 <span className="text-success "> /Day</span>
           </p>
-          <SecondaryButton text="View More" />
+          <SecondaryButton text="Rent Car" />
         </div>
         <div className="shadow-2xl px-4 text-center pt-6">
           <img src={fleet3} alt="fleet-image" />
-          <h1 className="text-xl font-bold my-2">
-            Corporate Transport: Professional and Reliable
+          <h1 className=" font-bold mt-4 mb-2">
+            Corporate Transport:{" "}
+            <span className="font-semibold"> Professional and Reliable</span>
           </h1>
           <p>
             Tailored for businesses and corporate clients, ensuring
@@ -52,12 +54,13 @@ const OurFleet = () => {
           <p className="font-bold my-4">
             $100 <span className="text-success "> /Day</span>
           </p>
-          <SecondaryButton text="View More" />
+          <SecondaryButton text="Rent Car" />
         </div>
         <div className="shadow-2xl p-4 text-center">
           <img src={fleet4} alt="fleet-image" />
-          <h1 className="text-xl font-bold my-2">
-            Trucking Services: Heavy-Duty Solutions
+          <h1 className=" font-bold mt-4 mb-2">
+            Trucking Services:{" "}
+            <span className="font-semibold"> Heavy-Duty Solutions</span>
           </h1>
           <p>
             Designed to meet the demands of logistics and industrial businesses.
@@ -65,7 +68,7 @@ const OurFleet = () => {
           <p className="font-bold my-4">
             $50 <span className="text-success "> /Day</span>
           </p>
-          <SecondaryButton text="View More" />
+          <SecondaryButton text="Rent Car" />
         </div>
       </div>
     </div>
