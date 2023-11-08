@@ -1,0 +1,17 @@
+.banner-bg-1 {
+    background: url('../../assets/Banner/slider-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+
+}
+
+.banner-bg-2 {
+    background: url('../../assets/Banner/slider-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+
+}
