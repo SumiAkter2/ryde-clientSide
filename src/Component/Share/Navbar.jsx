@@ -12,17 +12,17 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li className="hover:text-white">
-        <Link to="/">Services</Link>
+        <Link to="/coming">Services</Link>
       </li>
       <li className="hover:text-white">
-        <Link to="/">Investment</Link>
+        <Link to="/coming">Investment</Link>
       </li>
 
       <li className="hover:text-white">
-        <Link to="/">About</Link>
+        <Link to="/coming">About</Link>
       </li>
       <li className="hover:text-white">
-        <Link to="/">Contact</Link>
+        <Link to="/c">Contact</Link>
       </li>
     </>
   );

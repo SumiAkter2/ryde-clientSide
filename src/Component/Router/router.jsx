@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../layout/Main";
 import NotFound from "../Share/NotFound";
 import Home from "../Home/Home";
+import ComingSoon from "../ComingSoon/ComingSoon";
 
 export const router = createBrowserRouter([
   {
@@ -13,10 +14,10 @@ export const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
       },
-      //   {
-      //     path: "/fund",
-      //     element: <Fund />,
-      //   },
+      {
+        path: "/coming",
+        element: <ComingSoon />,
+      },
     ],
   },
 ]);
