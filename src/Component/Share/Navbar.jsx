@@ -2,9 +2,7 @@ import { HiMenuAlt1 } from "react-icons/hi";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { RiLoginCircleLine } from "react-icons/ri";
 import { FaRegUserCircle } from "react-icons/fa";
-import { FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
-// import PrimaryButton from "./Button/PrimaryButton";
 import logo from "../../assets/Logo/logo.png";
 import "./Navbar.css";
 const Navbar = () => {
@@ -74,8 +72,6 @@ const Navbar = () => {
                 <p className="text-primary text-sm flex justify-center  items-center py-2">
                   <FaRegUserCircle className="mr-1" /> SIGN UP
                 </p>
-
-                {/* <PrimaryButton text=" Start Free Trial"></PrimaryButton> */}
               </div>
             </div>
           </div>
@@ -95,15 +91,6 @@ const Navbar = () => {
             placeholder="Search"
             className="input lg:flex hidden input-success rounded-full   max-w-xs mr-6"
           />
-
-          <label tabIndex={0} className="btn btn-ghost btn-circle">
-            <div className="indicator mr-6">
-              <FaShoppingCart size="30px" color="white" />
-              <span className="badge badge-sm indicator-item badge-success">
-                0
-              </span>
-            </div>
-          </label>
         </div>
       </div>
     </div>
