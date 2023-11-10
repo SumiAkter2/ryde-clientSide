@@ -1,8 +1,10 @@
-import bgImage from "../../assets/Banner/bgImage.jpg";
+import toyota from "../../assets/Fleet/toyota.png";
+import bmw from "../../assets/Fleet/bmw.png";
+import truck from "../../assets/Fleet/truck.png";
 
 const Services = () => {
   return (
-    <div className="mb-12" id='services'>
+    <div className="mb-12" id="services">
       <div className="text-center px-6">
         <p className="pt-2 font-bold ">Services</p>
         <p className="py-2 text-2xl font-bold text-success">
@@ -18,13 +20,16 @@ const Services = () => {
         <div
           className="hero "
           style={{
-            backgroundImage: `url(${bgImage})`,
+            backgroundImage: `url(${toyota})`,
           }}
         >
-          <div className="hero-overlay bg-opacity-80 bg-primary"></div>
+          <div className="hero-overlay bg-opacity-60 bg-primary"></div>
           <div className="hero-content text-center text-secondary">
             <div className="max-w-md p-6">
               <h1 className="mb-5 text-3xl font-bold">RYDE Go</h1>
+              <p className="text-white font-bold text-xl">
+                (Live standard Toyota sedan,sedan VWs)
+              </p>
               <p className="mb-5">
                 Your ideal choice for reliable and convenient everyday
                 transportation, suitable for individuals and standard needs.
@@ -35,13 +40,16 @@ const Services = () => {
         <div
           className="hero "
           style={{
-            backgroundImage: `url(${bgImage})`,
+            backgroundImage: `url(${bmw})`,
           }}
         >
-          <div className="hero-overlay bg-opacity-80 bg-primary"></div>
+          <div className="hero-overlay bg-opacity-60 bg-primary"></div>
           <div className="hero-content text-center text-secondary">
             <div className="max-w-md p-6">
-              <h1 className="mb-5 text-3xl font-bold">RYDE Luxe</h1>
+              <h1 className="mb-5 text-3xl font-bold ">RYDE Luxe</h1>
+              <p className="text-white font-bold text-xl">
+                (Mercedes,Audi, BMW’S premium)
+              </p>
               <p className="mb-5">
                 Elevate your experience with premium cars, offering a more
                 luxurious and comfortable ride.
@@ -52,13 +60,14 @@ const Services = () => {
         <div
           className="hero "
           style={{
-            backgroundImage: `url(${bgImage})`,
+            backgroundImage: `url(${truck})`,
           }}
         >
-          <div className="hero-overlay bg-opacity-80 bg-primary"></div>
+          <div className="hero-overlay bg-opacity-60 bg-primary"></div>
           <div className="hero-content text-center text-secondary">
             <div className="max-w-md p-6">
               <h1 className="mb-5 text-3xl font-bold">RYDE Corporate</h1>
+              <p className="text-white font-bold text-xl">(Vans trucks)</p>
               <p className="mb-5">
                 Tailored solutions for businesses and corporate clients,
                 ensuring professionalism and reliability in transportation
