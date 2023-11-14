@@ -22,7 +22,8 @@ const Partner = () => {
               </p>
               <h1 className="text-xl mb-3">
                 RYDE provides innovative opportunities for car owners and
-                investors:
+                investors: &quot; Partnering with RYDE A Willingness to Prosper
+                &quot;
               </h1>
             </div>
 

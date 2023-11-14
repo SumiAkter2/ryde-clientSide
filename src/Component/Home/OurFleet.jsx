@@ -1,6 +1,7 @@
+import fleet0 from "../../assets/Fleet/polo-vivo.png";
 import fleet1 from "../../assets/Fleet/sedan.png";
 import fleet2 from "../../assets/Fleet/premium.png";
-import fleet3 from "../../assets/Fleet/corporate.png";
+import fleet3 from "../../assets/Fleet/volkswagen-multivan-.png";
 import fleet4 from "../../assets/Fleet/truck.png";
 import SecondaryButton from "../Share/Button/SecondaryButton";
 
@@ -11,9 +12,21 @@ const OurFleet = () => {
         <p className="py-2 text-xl font-bold text-success">Our Vehicle Fleet</p>
         <h1 className="text-2xl mb-3">Exploring Our Fleet</h1>
       </div>
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-6 lg:mx-12 mx-6 my-12">
-        <div className="shadow-2xl px-4 text-center pt-6  lg:h-[480px] ]  h-[500px] relative ">
-          <img src={fleet1} alt="fleet-image" />
+      <div className="grid lg:grid-cols-3 md:grid-cols-3 gap-6 lg:mx-12 mx-6 my-12">
+        <div className="shadow-2xl px-4 text-center pt-6  lg:h-[520px]    h-[500px] relative ">
+          <img src={fleet0} alt="fleet-image" className="lg:h-60" />
+          <h1 className=" font-bold mt-4 mb-2">Polo Vivo</h1>
+          <p>Entry level for Polo Vivo</p>
+          <p className="font-bold my-4">
+            R 400 <span className="text-success "> /Day</span>
+          </p>
+
+          <div className="absolute bottom-5 lg:left-[110px] left-[20px]">
+            <SecondaryButton text="Rent Car" />
+          </div>
+        </div>
+        <div className="shadow-2xl px-4 text-center pt-6  lg:h-[520px]    h-[500px] relative ">
+          <img src={fleet1} alt="fleet-image" className="lg:h-48" />
           <h1 className=" font-bold mt-4 mb-2">
             Sedans: <span className="font-semibold">Efficiency and Style</span>
           </h1>
@@ -25,12 +38,12 @@ const OurFleet = () => {
             R 600 <span className="text-success "> /Day</span>
           </p>
 
-          <div className="absolute bottom-5 lg:left-[60px] left-[20px]">
+          <div className="absolute bottom-5 lg:left-[110px] left-[20px]">
             <SecondaryButton text="Rent Car" />
           </div>
         </div>
-        <div className="shadow-2xl px-4 text-center pt-6  lg:h-[480px] ]  h-[500px] relative">
-          <img src={fleet2} alt="fleet-image" />
+        <div className="shadow-2xl px-4 text-center pt-6  lg:h-[520px]    h-[500px] relative">
+          <img src={fleet2} alt="fleet-image" className="lg:h-48" />
           <h1 className=" font-bold mt-4 mb-2">
             Premium Cars:
             <span className="font-semibold"> Luxury Redefined</span>
@@ -42,11 +55,11 @@ const OurFleet = () => {
           <p className="font-bold my-4">
             R 1000 <span className="text-success "> /Day</span>
           </p>
-          <div className="absolute bottom-5 lg:left-[60px] left-[20px]">
+          <div className="absolute bottom-5 lg:left-[110px] left-[20px]">
             <SecondaryButton text="Rent Car" />
           </div>
         </div>
-        <div className="shadow-2xl px-4 text-center pt-6  lg:h-[480px] ]  h-[500px] relative">
+        <div className="shadow-2xl px-4 text-center pt-6  lg:h-[520px]    h-[500px] relative">
           <img src={fleet3} alt="fleet-image" />
           <h1 className=" font-bold mt-4 mb-2">
             Corporate Transport:{" "}
@@ -59,11 +72,11 @@ const OurFleet = () => {
           <p className="font-bold my-4">
             R 1500 <span className="text-success "> /Day</span>
           </p>
-          <div className="absolute bottom-5 lg:left-[60px] left-[20px]">
+          <div className="absolute bottom-5 lg:left-[110px] left-[20px]">
             <SecondaryButton text="Rent Car" />
           </div>
         </div>
-        <div className="shadow-2xl px-4 text-center pt-6  lg:h-[480px] ]  h-[500px] relative">
+        <div className="shadow-2xl px-4 text-center pt-6  lg:h-[520px]    h-[500px] relative">
           <img src={fleet4} alt="fleet-image" />
           <h1 className=" font-bold mt-4 mb-2">
             Trucking Services:{" "}
@@ -75,7 +88,7 @@ const OurFleet = () => {
           {/* <p className="font-bold my-4">
             $50 <span className="text-success "> /Day</span>
           </p> */}
-          <div className="absolute bottom-5 lg:left-[60px] left-[20px]">
+          <div className="absolute bottom-5 lg:left-[110px] left-[20px]">
             <SecondaryButton text="Rent Car" />
           </div>
         </div>
