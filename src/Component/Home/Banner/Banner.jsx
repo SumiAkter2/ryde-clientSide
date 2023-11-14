@@ -20,7 +20,7 @@ const Banner = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="hero lg:h-[700px] h-[900px]  banner-bg-1 relative">
+          <div className="hero lg:h-[700px] h-[800px]  banner-bg-1 relative">
             <div className="hero-overlay bg-black bg-opacity-70"></div>
             <div className="hero-content  text-neutral-content">
               <div className="hero  ">
@@ -49,7 +49,7 @@ const Banner = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="hero lg:h-[700px] h-[900px] banner-bg-2 relative">
+          <div className="hero lg:h-[700px] h-[800px] banner-bg-2 relative">
             <div className="hero-overlay bg-black bg-opacity-60"></div>
             <div className="hero-content  text-neutral-content">
               <div className="hero  ">
