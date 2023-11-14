@@ -16,7 +16,7 @@ const Services = () => {
         </h1>
       </div>
 
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 lg:mx-12 mt-12 mx-6">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 lg:mx-12 mt-12 mx-4">
         <div
           className="hero "
           style={{
@@ -25,7 +25,7 @@ const Services = () => {
         >
           <div className="hero-overlay bg-opacity-60 bg-primary"></div>
           <div className="hero-content text-center text-secondary">
-            <div className="max-w-md p-6">
+            <div className="lg:max-w-md p-6">
               <h1 className="mb-5 text-3xl font-bold">RYDE Go</h1>
               <p className="text-white font-bold text-xl">
                 (Live standard Toyota sedan,sedan VWs)
@@ -45,7 +45,7 @@ const Services = () => {
         >
           <div className="hero-overlay bg-opacity-60 bg-primary"></div>
           <div className="hero-content text-center text-secondary">
-            <div className="max-w-md p-6">
+            <div className="lg:max-w-md p-6">
               <h1 className="mb-5 text-3xl font-bold ">RYDE Luxe</h1>
               <p className="text-white font-bold text-xl">
                 (Mercedes,Audi, BMW’S premium)
@@ -65,7 +65,7 @@ const Services = () => {
         >
           <div className="hero-overlay bg-opacity-60 bg-primary"></div>
           <div className="hero-content text-center text-secondary">
-            <div className="max-w-md p-6">
+            <div className="lg:max-w-md p-6">
               <h1 className="mb-5 text-3xl font-bold">RYDE Corporate</h1>
               <p className="text-white font-bold text-xl">(Vans trucks)</p>
               <p className="mb-5">

@@ -13,8 +13,8 @@ const Partner = () => {
           className="hero-overlay bg-primary
          bg-opacity-80"
         ></div>
-        <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-3xl my-12">
+        <div className=" text-center text-white">
+          <div className="  my-12">
             <div className="text-center px-6">
               <p className="pt-2 font-bold ">Investment</p>
               <p className="py-2 text-2xl font-bold text-success">
@@ -27,8 +27,8 @@ const Partner = () => {
               </h1>
             </div>
 
-            <div className="lg:flex  justify-center items-center lg:text-start text-center  mt-12 mb-20 gap-10">
-              <div className="lg:w-96 w-80 h-64 p-8 border border-secondary mt-2">
+            <div className="lg:flex  justify-center items-center lg:text-start text-center  mt-12 mb-20 gap-10 mx-2 lg:mx-0">
+              <div className="lg:w-96 w-80 h-64 p-8 border border-secondary mt-2 mx-4">
                 <h1 className="mb-5 text-2xl font-bold text-success">
                   Car Owners Partnership:
                 </h1>
@@ -38,7 +38,7 @@ const Partner = () => {
                   a generous share from the proceeds.
                 </p>
               </div>
-              <div className="lg:w-96 w-80 h-64 p-8 border border-secondary mt-2">
+              <div className="lg:w-96 w-80 h-64 p-8 border border-secondary mt-2 mx-4">
                 <h1 className="mb-5 text-2xl font-bold text-success">
                   Commercial Car Hiring Investment:
                 </h1>
