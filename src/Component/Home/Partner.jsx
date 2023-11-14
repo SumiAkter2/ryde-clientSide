@@ -49,7 +49,7 @@ const Partner = () => {
                 </p>
               </div>
             </div>
-            <h1 className="mb-2 text-3xl font-bold">
+            <h1 className="mb-2 text-3xl font-bold px-2">
               Do You Want To Earn With Us? So Don&apos;t Be Late.
             </h1>
 
