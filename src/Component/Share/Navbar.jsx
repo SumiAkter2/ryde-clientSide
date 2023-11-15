@@ -12,15 +12,15 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li className="hover:text-white">
+        <Link to="/about">About</Link>
+      </li>
+      <li className="hover:text-white">
         <Link to="/coming">Services</Link>
       </li>
       <li className="hover:text-white">
         <Link to="/coming">Investment</Link>
       </li>
 
-      <li className="hover:text-white">
-        <Link to="/coming">About</Link>
-      </li>
       <li className="hover:text-white">
         <Link to="/c">Contact</Link>
       </li>
@@ -78,7 +78,7 @@ const Navbar = () => {
           <Link to="/" className=" font-bold text-sm ">
             <img src={logo} alt="logo" className="lg:w-48 w-52" />
           </Link>
-          <ul className="menu lg:menu-horizontal  hidden px-1 ml-12 text-secondary w-full">
+          <ul className="menu lg:menu-horizontal  hidden px-1 ml-12 text-secondary w-full gap-x-2">
             {navItem}
           </ul>
         </div>
