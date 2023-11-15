@@ -29,14 +29,14 @@ const AboutPage = () => {
         Opt for a more personalized experience by hiring a professional driver
         for your vehicle, perfect for those seeking a chauffeured journey.
       </p>
-      <h1 className="lg:text-4xl text-3xl my-4">Self-Driving Option:</h1>
+      <h1 className="lg:text-4xl text-3xl my-4">Self-Driving Option</h1>
       <p className="mb-10">
         For those who enjoy the wheel, the self-driving option allows you to
         drive your car independently.
       </p>
-      <h1 className="lg:text-4xl text-3xl my-4">Our Core Objective:</h1>
+      <h1 className="lg:text-4xl text-3xl my-4">Our Core Objective</h1>
       <p className="mb-10">Turning Your Car into a Profitable Asset</p>
-      <h1 className="lg:text-4xl text-3xl my-4">Our mission is clear:</h1>
+      <h1 className="lg:text-4xl text-3xl my-4">Our mission is clear</h1>
       <p className="mb-10">
         transform your car into a consistent source of revenue. As a Fleet
         Management partner, we ensure your vehicle is in operation every day and
