@@ -3,7 +3,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { RiLoginCircleLine } from "react-icons/ri";
 import { FaRegUserCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import logo from "../../assets/Logo/logo22-removebg-preview.png";
+import logo from "../../assets/Logo/ryde-logo.png";
 import "./Navbar.css";
 const Navbar = () => {
   const navItem = (
@@ -76,7 +76,7 @@ const Navbar = () => {
             </div>
           </div>
           <Link to="/" className=" font-bold text-sm ">
-            <img src={logo} alt="logo" className="w-48" />
+            <img src={logo} alt="logo" className="lg:w-48 w-52" />
           </Link>
           <ul className="menu lg:menu-horizontal  hidden px-1 ml-12 text-secondary w-full">
             {navItem}

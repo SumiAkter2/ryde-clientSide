@@ -1,4 +1,4 @@
-import logo from "../../assets/logo/logo22-removebg-preview.png";
+import logo from "../../assets/logo/ryde-logo.png";
 const Footer = () => {
   return (
     <div>
