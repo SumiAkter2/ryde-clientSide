@@ -22,12 +22,13 @@ const Contact = () => {
           <div className="mt-12 ">
             <h1 className="text-xl font-semibold">Email Us</h1>
             <p className="flex lg:justify-start justify-center items-center mt-4 text-xl">
-              <MdEmail size="25px" className="mr-2" /> Abc@gmail.com
+              <MdEmail size="25px" className="mr-2" /> info@ryde.co.za
             </p>
 
             <h1 className="text-xl font-semibold mt-8">Call Us</h1>
             <p className="flex lg:justify-start justify-center items-center mt-4 text-xl">
-              <PiPhoneCallFill size="25px" className="mr-2" /> +9999999999
+              <PiPhoneCallFill size="25px" className="mr-2" /> 068 0249 690 /
+              031 513 0518
             </p>
           </div>
         </div>
